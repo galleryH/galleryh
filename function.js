@@ -25,7 +25,7 @@ console.log(window.location)
 console.log(tags)
 var PageNumber = 1;
 var isLoading = false; // Flag to track whether data is being loaded
-var BaseWindowURL = window.location.origin
+var BaseWindowURL = "https://galleryh.github.io/galleryh"
 
 function Search() {
     window.open(`${BaseWindowURL}?${SearchBar.value}`, "_self")
